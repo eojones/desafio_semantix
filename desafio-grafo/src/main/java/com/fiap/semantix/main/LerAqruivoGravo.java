@@ -23,7 +23,7 @@ public class LerAqruivoGravo {
 	public static void main(String[] args) {
 		Grafo grafo = new Grafo();
 
-		String caminhoArquivo = JOptionPane.showInputDialog(null, "Digite o caminho do arquivo xlsx do grafo:  ");
+		String caminhoArquivo = JOptionPane.showInputDialog(null, "Digite o caminho do arquivo xls do grafo:  ");
 
 		if (caminhoArquivo == null) {
 			System.exit(0);
